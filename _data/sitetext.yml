@@ -1,140 +1,151 @@
 header:
-    title: Welcome to our Studio!
-    text: It's Nice To Meet You
-    button: Tell Me More
-    buttonlink: "#services"
+  subtitle1: Redescuta na cidade
+  subtitle2: Escuta acessível na cidade
+  text: Redescuta na Cidade foi idealizado em 2019 como uma maneira de democratizar o acesso ao tratamento psicanalítico para crianças, adolescentes, jovens e adultos, que não chegam aos consultórios particulares por questões financeiras ou que não conseguem atendimento especializado nos serviços de atendimento básico de saúde por um excesso de demanda ao setor. <br><br> Redescuta na Cidade é composto por profissionais de saúde mental (psicanalistas, psicólogos, psiquiatras) com experiência em atendimento clínico-institucional em psicanálise. Estes profissionais atuam em diversos consultórios e instituições localizados na cidade do Rio de Janeiro. <br><br> Se for do seu interesse, preencha os dados abaixo que o mais breve possível, entraremos em contato.
 
 services:
-    title: "Services"
-    text: "Lorem ipsum"
-    section: services
-    list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop       
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+  title: "Services"
+  text: "Lorem ipsum"
+  section: services
+  list:
+    - title: "E-Commerce"
+      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
+    - title: "Responsive Design"
+      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      icon: fas fa-laptop
+    - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
+      desc: "Your description here, full **Markdown** support"
+      icon: fab fa-markdown
 
 portfolio:
-    title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    section: portfolio
-    closebutton: "Close Project"
-    
+  title: "Portfolio"
+  text: "Lorem ipsum dolor sit amet consectetur."
+  section: portfolio
+  closebutton: "Close Project"
 
 timeline:
-    title: "About" 
-    text: "Lorem ipsum timeline"
-    section: timeline
-    # left is the default
-    #start_align: "left"
-    events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
-        alt: 
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
-        alt: 
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
-        image: assets/img/timeline/3.jpg
-        alt: image alt text
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
-        image: assets/img/timeline/4.jpg
-        alt: 
-        # you can enforce the aligment
-        align: right
-    end: "Be Part <br> of Our <br> Story!"
+  title: "About"
+  text: "Lorem ipsum timeline"
+  section: timeline
+  # left is the default
+  #start_align: "left"
+  events:
+    - title: "Our Humble Beginnings"
+      year: "2009-2011"
+      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      image: assets/img/timeline/1.jpg
+      alt:
+    - title: "An Agency is Born"
+      year: "March 2011"
+      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      image: assets/img/timeline/2.jpg
+      alt:
+    - title: "Jekyll Theme is created"
+      year: "2019"
+      desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
+      image: assets/img/timeline/3.jpg
+      alt: image alt text
+    - title: "Title"
+      year: "2009-2011"
+      desc: "Your description here, **Markdown** is fully supported."
+      image: assets/img/timeline/4.jpg
+      alt:
+      # you can enforce the aligment
+      align: right
+  end: "Be Part <br> of Our <br> Story!"
 
 about:
-    title: "About Us"
-    text: "our story"
-    section: about
+  title: "About Us"
+  text: "our story"
+  section: about
 
 clients:
-    section: clients
-    max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
-    list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
-    
+  section: clients
+  max-height: 100px
+  horizontal-scrolling: "" #"yes/no"
+  list:
+    - title: "envato"
+      url: https://github.com/raviriley/agency-jekyll-theme
+      logo: assets/img/clients/envato.jpg
+    - title: "designmodo"
+      url: https://github.com/raviriley/agency-jekyll-theme
+      logo: assets/img/clients/designmodo.jpg
+    - title: "themeforest"
+      url: https://github.com/raviriley/agency-jekyll-theme
+      logo: assets/img/clients/themeforest.jpg
+    - title: "Creative Market"
+      url: https://github.com/raviriley/agency-jekyll-theme
+      logo: assets/img/clients/creative-market.jpg
+
 team:
-    title: "OUR AMAZING TEAM"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
-    section: team
-    people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
-        image: assets/img/team/2.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-          
+  title: "Equipe"
+  #text: "Lorem ipsum dolor sit amet consectetur."
+  #subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+  section: team
+  people:
+    - name: "Adriana Pereira Carneiro"
+      role: "CRP 05/33521"
+      text: "Psicóloga clínica. Especialista em Neuropsicologia pela Santa Casa de Misericórdia do Rio de Janeiro. Atua em consultório particular e realiza atendimento clínico pelo Redescuta na Cidade."
+      image: assets/img/team/AdrianaPereiraCarneiro.png
+    - name: "Angélica Cantarella Tironi"
+      role: "CRP 05/27468"
+      text: "Correspondente da Seção Rio de Janeiro da Escola Brasileira de Psicanálise, pós-doutora em Teoria Psicanalítica pela Universidade Federal do Rio de Janeiro e supervisora clínica do Redescuta na Cidade."
+      image: assets/img/team/AngélicaCantarellaTironi.png
+    - name: "Augusto de Carvalho Ramalho"
+      role: "CRP 05/54342"
+      text: "Psicólogo formado pela Universidade Federal de São João del-Rei - UFSJ. Pós-graduado em Saúde Mental (Residência Multiprofissional da Universidade do Estado do Rio de Janeiro - UERJ). Atua como Acompanhante Terapêutico na Rede de Atenção Psicossocial do Rio de Janeiro/RJ e realiza atendimento clínico pelo Redescuta na Cidade."
+      image: assets/img/team/AugustodeCarvalhoRamalho.png
+    - name: "Bruna Rodrigues Monte Christo"
+      role: "CRM 5290080-0"
+      text: "Psiquiatra formada pelo Instituto Municipal Philippe Pinel e Instituto Municipal Nise da Silveira. Atua na área de álcool e drogas há 6 anos, atualmente como médica do CAPS AD João Candido (São João do Meriti). Chefe de equipe da psiquiatria do Hospital Norte D'or. Psiquiatra do Espaço Saúde Mente e Corpo (Méier) e Clínica Le Sage (Centro). Também tem experiência com atendimentos infantis a partir de 7 anos. É psiquiatra do Redescuta na Cidade."
+      image: assets/img/team/BrunaRodriguesMonteChristo.png
+    - name: "Gabriela Klussmann"
+      role: "CRP 05/46482"
+      text: "Psicóloga formada pela UFRJ. Mestranda do Programa de Pós-Graduação em Psicanálise da UERJ, com Pós-Graduação em Psicologia Clínico-Institucional - Modalidade Residência Hospitalar HUPE/UERJ e Especialização em Psicologia Clínica pela PUC-Rio. Realiza atendimento clínico pelo Redescuta na Cidade."
+      image: assets/img/team/GabrielaKlussmann.png
+    - name: "Giselle Leandro Fleury"
+      role: "CRP 05/30571"
+      text: "Mestre pelo Programa de Pós-graduação em Psicanálise da Universidade do Estado do Rio de Janeiro (PGPSA/UERJ), especialista em psicanálise pelo Centro de Ensino e Pesquisa em Psicanálise (CEPCOP/USU), psicanalista formada pelo Instituto de Clínica e Pesquisa do Rio de Janeiro (ICP-RJ/EBP-RJ), coordenadora do laboratório Pipa-voada (rede Cien-Brasil), supervisora clínica do curso de especialização do Projad/UFRJ,  psicóloga em atuação em Caps-ad, psicanalista em consultório particular, idealizadora e coordenadora do Redescuta na Cidade."
+      image: assets/img/team/GiselleLeandroFleury.png
+    - name: "Illana Gravino"
+      role: "CRP 05/23206"
+      text: "Psicóloga formada pela universidade santa Úrsula, especialista em psicanálise pelo Centro de Ensino e pesquisa em Psicanálise (Cepcop/USU), Pos graduada em oncologia  pelo instituto Israelita de ensino e pesquisa (hospital Albert Einstein). Trabalhou no Instituto Nacional do Câncer(INCA) Hoje atua em consultório particular, centros de hemodiálise e atendimento clínico pelo Redescuta na cidade."
+      image: assets/img/team/IllanaGravino.png
+    - name: "Luiza Reis"
+      role: "CRP 05/48310"
+      text: "Psicóloga graduada pela Universidade Federal de Uberlândia, Mestre pelo programa de Psicologia da UFF, com especialização em Atenção a Usuários de Álcool e outras Drogas pelo IPUB/UFRJ e com formação em Agente Redutora de Danos pela Escola de Redução de Danos do Ministério da Saúde. Atuou na rede pública de saúde de Uberlândia/MG e como acompanhante terapêutica. Hoje trabalha como psicóloga em CAPS AD na baixada fluminense e realiza atendimento clínico pelo Redescuta na Cidade."
+      image: assets/img/team/LuizaReis.png
+    - name: "Mariah Pires"
+      role: "CRP 05/52020"
+      text: "Psicóloga clínica formada pela UFF. Tem especialização em Atenção ao Usuário de Álcool e outras Drogas pelo IPUB/UFRJ. É psicóloga no Projeto Despertar no Núcleo de Saúde Mental Casa Verde e realiza atendimento clínico pelo Redescuta na Cidade."
+      image: assets/img/team/MariahPires.png
+    - name: "Natalie Vidart Badia"
+      role: "CRP 05/17324"
+      text: "Psicóloga clínica formada pela Universidade Católica de Petrópolis. Especialista em Avaliação Psicológica pela mesma Universidade. Cooperada à UNIFOP, atua em consultório particular, além de atender pelo projeto Redescuta na Cidade."
+      image: assets/img/team/NatalieVidartBadia.png
+    - name: "Penélope Esteves Raposo Mathias"
+      role: "CRP 05/49692"
+      text: "Psicóloga formada pela UERJ. Mestranda do Programa de Pós-graduação em Psicologia Social pela UERJ, com Pós-graduação em Psicologia Clínico-Institucional - Modalidade Residência Hospitalar HUPE/UERJ. Atuou como psicóloga clínica institucional em ONGs de assistência à população convivendo com HIV/AIDS e dispositivos de atendimento a crianças e adolescentes. Atende em consultório particular e pelo projeto Redescuta na Cidade."
+      image: assets/img/team/PenelopeEstevesRaposoMathias.png
+    - name: "Tatiana de Souza C. da Silva"
+      role: "CRP 05/51509"
+      text: "Psicóloga graduada pelo Instituto Brasileiro de Medicina, especialista em psicanálise pela Universidade Santa Úrsula.  Atuou no Instituto Municipal Philippe Pinel. Hoje é psicóloga nos projetos Redescuta e Rede Psi, além do consultório particular."
+      image: assets/img/team/TatianadeSouzaCdaSilva.png
+
 contact:
-    title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
-    section: contact
-    
+  title: "Cadastro de Paciente"
+  section: contact
+
 footer:
-    legal: "Privacy Policy"
-    social:
-      - url: https://twitter.com
-        icon: "fab fa-twitter"  
-      - url: https://facebook.com
-        icon: "fab fa-facebook-f"
-      - url: https://linkedin.com
-        icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley/agency-jekyll-theme
-        icon: "fab fa-github"
-      - url: https://instagram.com
-        icon: "fab fa-instagram"
-
-
+  legal: "Política de privacidade"
+  social:
+    - url: https://twitter.com
+      icon: "fab fa-twitter"
+    - url: https://facebook.com
+      icon: "fab fa-facebook-f"
+    - url: https://linkedin.com
+      icon: "fab fa-linkedin-in"
+    - url: https://instagram.com
+      icon: "fab fa-instagram"
 # {{ site.data.sitetext.ex.ex | markdownify | default: example }}
